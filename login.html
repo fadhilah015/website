@@ -80,28 +80,19 @@
 
 
 <!-- Form -->
-<section id="one" class="wrapper style2">
-  								<h3>Form</h3>
-
-								<form method="post" action="#">
-									<div class="row uniform">
-										<div class="6u 12u$(xsmall)">
-											<label for="fname">أسم المستخدم </label>
-											<input type="text" name="name" id="name" value="" placeholder="أسم المستخدم " />
-										</div>
-										<div class="6u$ 12u$(xsmall)">
-											<label for="fname">كلمة المرور </label>
-
-											<input type="password" name="password" id="password" value="" placeholder="" />
-										</div>
-										<div class="button ">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Reset" class="alt" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
+<section id="one" >
+<div>
+  <form action="/action_page.php">
+    <label for="fname">أسم المستخدم</label>
+    <input type="text" id="fname" name="firstname" placeholder="اسم المستخدم ">
+     <label for="fname">كلمة المرور </label>
+    <input type="password" id="password" name="password" >
+    <br>
+    <div >
+    <input type="submit"  value="Submit">
+    <div>
+  </form>
+</div>
 
 </section>
 
